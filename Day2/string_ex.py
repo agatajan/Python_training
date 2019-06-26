@@ -9,3 +9,5 @@ nazwisko = 'Jot'
 
 print(f'Witaj {imie} {nazwisko}')
 print(imie, nazwisko)
+
+#nowy komentarz
