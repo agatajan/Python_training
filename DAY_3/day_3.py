@@ -61,11 +61,5 @@
 #     print(character)
 
 
-# 0 przypisz do zmiennej o odpowiedniej nazwie nazwy miesiaca (January, February) - mozna uzyc skrotow Jan, Feb itd...
-# wypisz nazwy miesiaca funkcja print()
-# nazwy miesiaca musza byc oddzielone enterem (znak specjalny \n)
-# month = ["Jan","Feb", "March", "April", "June", "July", "August", "Sep","Oct", "Nov", "Dec"]
-# for x in month:
-#     print(x + "\n")
 
 
