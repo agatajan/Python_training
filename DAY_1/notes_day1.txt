@@ -1,0 +1,152 @@
+cebula.mat@gmail.com
+
+DATABRICKS
+SPARK --> SQL+PYTHON
+
+
+Algorytm
+schemat blokowy - warunki
+
+rmdir /?
+rmdir information /S
+c:\Users\agata.janowska\Documents\Python_training\DAY_1\holidays\pictures>
+
+Microsoft Windows [Version 10.0.15063]
+(c) 2017 Microsoft Corporation. All rights reserved.
+
+C:\Users\agata.janowska>cd c:\Users\agata.janowska\Documents\Python_training\DAY_1
+
+c:\Users\agata.janowska\Documents\Python_training\DAY_1>md holidays
+
+c:\Users\agata.janowska\Documents\Python_training\DAY_1>holidays
+'holidays' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\Users\agata.janowska\Documents\Python_training\DAY_1>cd holidays
+
+c:\Users\agata.janowska\Documents\Python_training\DAY_1\holidays>md pictures
+
+c:\Users\agata.janowska\Documents\Python_training\DAY_1\holidays>md maps
+
+c:\Users\agata.janowska\Documents\Python_training\DAY_1\holidays>md information
+
+c:\Users\agata.janowska\Documents\Python_training\DAY_1\holidays>pictures
+'pictures' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\Users\agata.janowska\Documents\Python_training\DAY_1\holidays>cd pictures
+
+c:\Users\agata.janowska\Documents\Python_training\DAY_1\holidays\pictures>md balcerona
+
+c:\Users\agata.janowska\Documents\Python_training\DAY_1\holidays\pictures>md madrid
+
+c:\Users\agata.janowska\Documents\Python_training\DAY_1\holidays\pictures>cd madrid
+
+c:\Users\agata.janowska\Documents\Python_training\DAY_1\holidays\pictures\madrid>md palace
+
+c:\Users\agata.janowska\Documents\Python_training\DAY_1\holidays\pictures\madrid>cd c:\Users\agata.janowska\Documents\Python_training\DAY_1
+
+c:\Users\agata.janowska\Documents\Python_training\DAY_1>cd holidays
+
+c:\Users\agata.janowska\Documents\Python_training\DAY_1\holidays>cd maps
+
+c:\Users\agata.janowska\Documents\Python_training\DAY_1\holidays\maps>md local
+
+c:\Users\agata.janowska\Documents\Python_training\DAY_1\holidays\maps>cd c:\Users\agata.janowska\Documents\Python_training\DAY_1\holidays
+
+c:\Users\agata.janowska\Documents\Python_training\DAY_1\holidays>cd information
+
+c:\Users\agata.janowska\Documents\Python_training\DAY_1\holidays\information>md notes
+
+c:\Users\agata.janowska\Documents\Python_training\DAY_1\holidays\information>md tips
+
+c:\Users\agata.janowska\Documents\Python_training\DAY_1\holidays\information>cd ..
+
+c:\Users\agata.janowska\Documents\Python_training\DAY_1\holidays>cd pictures
+
+c:\Users\agata.janowska\Documents\Python_training\DAY_1\holidays\pictures>rename barcelona valenzia
+The system cannot find the file specified.
+
+c:\Users\agata.janowska\Documents\Python_training\DAY_1\holidays\pictures>rename balcerona valenzia
+
+c:\Users\agata.janowska\Documents\Python_training\DAY_1\holidays\pictures>cd ..
+
+c:\Users\agata.janowska\Documents\Python_training\DAY_1\holidays>rd information
+The directory is not empty.
+
+c:\Users\agata.janowska\Documents\Python_training\DAY_1\holidays>erase information
+c:\Users\agata.janowska\Documents\Python_training\DAY_1\holidays\information\*, Are you sure (Y/N)? Y
+
+c:\Users\agata.janowska\Documents\Python_training\DAY_1\holidays>rmdir information
+The directory is not empty.
+
+c:\Users\agata.janowska\Documents\Python_training\DAY_1\holidays>rmdir /?
+Removes (deletes) a directory.
+
+RMDIR [/S] [/Q] [drive:]path
+RD [/S] [/Q] [drive:]path
+
+    /S      Removes all directories and files in the specified directory
+            in addition to the directory itself.  Used to remove a directory
+            tree.
+
+    /Q      Quiet mode, do not ask if ok to remove a directory tree with /S
+
+c:\Users\agata.janowska\Documents\Python_training\DAY_1\holidays>rmdir information /S
+information, Are you sure (Y/N)? y
+
+c:\Users\agata.janowska\Documents\Python_training\DAY_1\holidays>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 5C4B-4DB0
+
+ Directory of c:\Users\agata.janowska\Documents\Python_training\DAY_1\holidays
+
+06/24/2019  08:28 PM    <DIR>          .
+06/24/2019  08:28 PM    <DIR>          ..
+06/24/2019  08:18 PM    <DIR>          maps
+06/24/2019  08:23 PM    <DIR>          pictures
+               0 File(s)              0 bytes
+               4 Dir(s)  122,738,438,144 bytes free
+
+c:\Users\agata.janowska\Documents\Python_training\DAY_1\holidays>cd pictures
+
+c:\Users\agata.janowska\Documents\Python_training\DAY_1\holidays\pictures>mkdir balcerona maps
+
+c:\Users\agata.janowska\Documents\Python_training\DAY_1\holidays\pictures>mkdir c:\Users\agata.janowska\Documents\Python_training\DAY_1\holidays\maps\barcelona
+
+c:\Users\agata.janowska\Documents\Python_training\DAY_1\holidays\pictures>cd balcerona
+
+c:\Users\agata.janowska\Documents\Python_training\DAY_1\holidays\pictures\balcerona>cd ..
+
+c:\Users\agata.janowska\Documents\Python_training\DAY_1\holidays\pictures>cd mad
+The system cannot find the path specified.
+
+c:\Users\agata.janowska\Documents\Python_training\DAY_1\holidays\pictures>cd madrid
+
+c:\Users\agata.janowska\Documents\Python_training\DAY_1\holidays\pictures\madrid>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 5C4B-4DB0
+
+ Directory of c:\Users\agata.janowska\Documents\Python_training\DAY_1\holidays\pictures\madrid
+
+06/24/2019  08:16 PM    <DIR>          .
+06/24/2019  08:16 PM    <DIR>          ..
+06/24/2019  08:16 PM    <DIR>          palace
+               0 File(s)              0 bytes
+               3 Dir(s)  122,735,489,024 bytes free
+
+c:\Users\agata.janowska\Documents\Python_training\DAY_1\holidays\pictures\madrid>
+
+
+
+
+GIT
+
+git clone http:\.....
+git add aaa.py
+git push
+
+git pull
+
+
+

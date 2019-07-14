@@ -1,0 +1,15 @@
+To jest mój tekst. To
+jest kolejna linijka tekstu, 
+        a to kolejna.
+Dopisana linijka tekstu
+Dopisana linijka tekstu
+Dopisana linijka tekstu
+Dopisana linijka tekstu
+Dopisana linijka tekstu
+Moja kolejna linijka
+Moja kolejna linijka
+Dopisana linijka tekstu
+Ten tekst jest zawsze w nowej linii
+Ten tekst jest zawsze w nowej linii
+Moja kolejna linijka
+Ten tekst jest zawsze w nowej linii
