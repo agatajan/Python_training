@@ -1,7 +1,7 @@
-# rekordy = [{"imie": "Adam", "nazwisko":"kowalski", "wiek":32},
-# {"imie": "Anna", "nazwisko":"nowak", "wiek":23},
-# {"imie": "Jan", "nazwisko":"nowacki", "wiek":34},
-# {"imie": "Tomasz", "nazwisko":"lato", "wiek":43}]
+rekordy = [{"imie": "Adam", "nazwisko":"kowalski", "wiek":32},
+{"imie": "Anna", "nazwisko":"nowak", "wiek":23},
+{"imie": "Jan", "nazwisko":"nowacki", "wiek":34},
+{"imie": "Tomasz", "nazwisko":"lato", "wiek":43}]
 #
 # dict_of_person = {}
 #
@@ -95,11 +95,11 @@
 
 #otworz i zapisz do pliku filmy - kazdy film  w nowym wierszu (linijce pliku)
 #1
-# list_of_movies = ["Film1", "Film2","Film3", "Film4"]
-#
-# with open("movie.txt", "w") as file:
-#     for movie in list_of_movies:
-#         file.write(movie + '\n')
+list_of_movies = ["Film1", "Film2","Film3", "Film4"]
+
+with open("movie.txt", "w") as file:
+    for movie in list_of_movies:
+        file.write(movie + '\n')
 
 #2
 # movie_dict = {}

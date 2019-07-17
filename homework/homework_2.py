@@ -58,3 +58,6 @@
 # words = split_to_words(sentence)
 # sort_words(words)
 # print(words)
+
+# 8 (optional) Zaimportuj modul (plik) i uzyj funkcji z tego modulu
+#  help(nazwa_pliku) - zadokumentuj troche kodu!
