@@ -1,4 +1,6 @@
 #definicja pojedynczej karty
+import  random
+
 class Card():
 
     FIGURES = ["ace", "2", "3", "4", "5", "6", "7", "8", "9", "10", "jack", "queen", "king"]
@@ -21,6 +23,9 @@ class CardDeck():
         for figure in Card.FIGURES:
             for color in Card.COLORS:
                 self.__deck.append(Card(figure, color))
+#sortowanie talii kart
+    def shuffle(self):
+        random.shuffle(self.__deck)
 
     def cards_count(self):
         return len(self.__deck)
@@ -43,6 +48,7 @@ class CardDeck():
 
 
 deck_of_cards = CardDeck()
+deck_of_cards.shuffle()
 print(deck_of_cards.cards_count())
 
 print(deck_of_cards)
